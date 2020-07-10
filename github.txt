@@ -1,0 +1,10 @@
+上传
+1.初始化本库（电脑上） git init
+2.添加远程库  git remote add origin 远程仓库地址
+3.获取远程库与本地同步  git pull --rebase origin master
+4.将文件添加到暂缓区  git add  文件
+5.将暂缓区的文件提交到仓库区  git commit -m ""   (-m 为备注信息）
+6.将仓库区的文件推送到远程仓库  git push origin master
+
+下载
+git clone 远程仓库地址
